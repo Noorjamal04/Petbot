@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetBot</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="lightbox2-2.11.3\dist\css\lightbox.css" rel="stylesheet" />
+    <script src="lightbox2-2.11.3\dist\js\lightbox-plus-jquery.js"></script>
+</head>
+<body>
+<header id="top-header">
+    <h1 id="top-h1">Petbot</h1>
+</header>
+<nav>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" >PetBot</a>
+        <a href="tuotteet.html" class="active">Tuotteet</a>
+        <a href="meista.html">Meistä</a>
+        <a href="yhteystiedot.html">Yhteystiedot</a>
+        <a href="video.html">Video</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</nav>
+<main>
+    <section id="valitse">
+        <h2>Tuotteet</h2>
+        <button id="kissat">Kissat</button>
+        <button id="koirat">Koirat</button>
+        <button id="tyhjenna">Tyhjennä valinta</button>
+
+    </section>
+
+    <div id="tulos">
+
+    </div>
+
+    <script src="js/tuotteet.js"></script>
+    <script src="js/menu.js"></script>
+</main>
+<footer>
+    <div class="contact" vocab="http://schema.org/" typeof="LocalBusiness">
+        <a href="https://www.facebook.com/PetBot-106064898005251/ ">
+            <img src="kuvat/facebook_edit.png" alt=""></a>
+
+        <a href="https://www.instagram.com/petbotsince2018/">
+            <img src="kuvat/instagram_edit.png" alt=""></a>
+    </div>
+    <p>Petbot Oy © 2020</p>
+
+</footer>
+</body>
+</html>

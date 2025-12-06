@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetBot</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header id="top-header">
+    <h1 id="top-h1">Petbot</h1>
+</header>
+<nav>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">PetBot</a>
+        <a href="tuotteet.html">Tuotteet</a>
+        <a href="meista.html">Meistä</a>
+        <a href="yhteystiedot.html">Yhteystiedot</a>
+        <a href="video.html">Video</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+</nav>
+<main>
+    <article id="banner">
+        <div id="banner_text">
+            <h2 id="title">Petbot</h2>
+            <p id="slogan2">Sinun uusi paras ystäväsi </p>
+        </div>
+    </article>
+    <header>
+
+    </header>
+    <article id="article_one">
+        <img src="kuvat/kissa.jpg" alt="">
+        <div id="cat_text">
+            <h2>Mikä on PetBot?</h2>
+        <p>
+            Me Petbotilla valmistamme ja myymme kaikkiin tarpeisiin sopivia lemmikkejä. Lemmikkien rungot on valmistettu
+            kierrätysmetallista ja kauniit karvapeitteet ovat synteettistä materiaalia, jotka tekevät lemmikeistä allergiavapaat.
+            <br><br>
+            Tutustu valikoimaamme ja ota meihin yhteyttä, niin laitetaan uusi ystävyys alulle!
+            <br><br>- PetBotin tiimi
+        </p>
+        </div>
+    </article>
+    <article id="aukioloajat">
+        <img src="kuvat/kello.png" alt="">
+        <header>
+            <h2>Aukioloajat</h2>
+        </header>
+        <p>
+            ma-pe 10:00-18:00
+            <br>la 10:00-17:00
+            <br>su suljettu
+        </p>
+    </article>
+    <section id="contact-main">
+        <div id="contact-left">
+            <h2>OTA YHTEYTTÄ</h2>
+            <p>Helsinginkatu 16<br><br>
+                Helsinki<br><br>
+                050 123 1234<br><br>
+                info@petbot.fi
+            </p>
+        </div>
+        <div id="formbox">
+            <form onsubmit="alert('Kiitos viestistäsi, palaamme asiaan mahdollisimman pian')" method="post" enctype="text/plain">
+                <div id="sameline">
+                    <input type="text" id="nimi" name="nimi" placeholder="Nimi" required>
+                    <input type="email" id="email" name="email" placeholder="Sähköposti" required>
+                </div>
+                <input type="text" id="aihe" name="aihe" placeholder="Aihe" required>
+                <textarea id="texti" name="teksti" placeholder="Kirjoita viestisi tähän..." rows="4" cols="50" required></textarea>
+                <br><br>
+                <input type="submit" id="submit" value="Lähetä">
+            </form>
+        </div>
+    </section>
+</main>
+<script src="js/menu.js"></script>
+<footer>
+    <div class="contact" vocab="http://schema.org/" typeof="LocalBusiness">
+        <a href="https://www.facebook.com/PetBot-106064898005251/ ">
+            <img src="kuvat/facebook_edit.png" alt=""></a>
+
+        <a href="https://www.instagram.com/petbotsince2018/">
+            <img src="kuvat/instagram_edit.png" alt=""></a>
+    </div>
+    <p>Petbot Oy © 2020</p>
+
+</footer>
+</body>
+</html>

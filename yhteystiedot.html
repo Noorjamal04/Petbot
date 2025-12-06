@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetBot</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.3/leaflet.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.3/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+</head>
+<body>
+
+<header id="top-header">
+    <h1 id="top-h1">Petbot</h1>
+</header>
+<nav>
+    <script src="js/menu.js"></script>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" >PetBot</a>
+        <a href="tuotteet.html">Tuotteet</a>
+        <a href="meista.html">Meistä</a>
+        <a href="yhteystiedot.html" class="active">Yhteystiedot</a>
+        <a href="video.html">Video</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</nav>
+<main>
+    <article id="info_container">
+        <div id="wrap">
+        <div id="yhteystiedot">
+            <h2>Yhteystiedot</h2>
+            <p>
+                ma-pe 10:00-18:00
+                <br>la 10:00-17:00
+                <br>su suljettu
+                <br>
+                <br>Helsinginkatu 16
+                <br>Helsinki
+                <br>050 123 1234
+                <br>info@petbot.fi
+            </p>
+        </div>
+        <div id="map">
+            <script src="js/map.js"></script>
+        </div>
+        </div>
+    </article>
+</main>
+
+
+<footer>
+    <section class="contact" vocab="http://schema.org/" typeof="LocalBusiness">
+        <a href="https://www.facebook.com/PetBot-106064898005251/ ">
+            <img class="front" alt="facebookpikkukuva" src="kuvat/facebook_edit.png"></a>
+
+        <a href="https://www.instagram.com/petbotsince2018/">
+            <img src="kuvat/instagram_edit.png" alt="istagrampikkukuva"></a>
+    </section>
+    <p>Petbot Oy © 2020</p>
+
+</footer>
+</body>
+<script>
+
+</script>
+</html>
